@@ -4,3 +4,12 @@
 
 .git
 .gitignore
+.env
+.venv
+.pytest_cache
+.uv-cache
+.tmp
+__pycache__
+*.py[cod]
+*.log
+screenshots
