@@ -42,4 +42,5 @@ def log_event(event: str, level: str = "info", **fields) -> str:
     }
     line = json.dumps(payload, ensure_ascii=False)
     print(line, file=sys.stdout)
+
     return line
